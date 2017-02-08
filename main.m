@@ -15,9 +15,9 @@ params.dictsize = 500;
 params.n_iter = 20;
 params.coeff = 1000;
 
-%{ TRAIN }%
+
 cbfd_train;
-%{ TRAIN }%
+
 
 load datasets\feret\gallery.mat    
 ytr = label;
